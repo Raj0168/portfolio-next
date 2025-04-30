@@ -18,7 +18,7 @@ export default function Footer() {
     <Box
       component="footer"
       sx={{
-        py: 3,
+        py: 2,
         px: 4,
         display: "flex",
         justifyContent: "space-between",
@@ -26,7 +26,6 @@ export default function Footer() {
         bgcolor: "background.paper",
         borderTop: "1px solid",
         borderColor: "divider",
-        mt: 6,
       }}
     >
       <Box sx={{ ...(isMobile ? {} : { flex: 1 }) }} />
@@ -43,7 +42,7 @@ export default function Footer() {
       >
         <IconButton
           component="a"
-          href="https://github.com/your-profile"
+          href="https://github.com/raj0168"
           target="_blank"
           rel="noopener"
           aria-label="GitHub"
@@ -59,10 +58,10 @@ export default function Footer() {
         </IconButton>
         <IconButton
           component="a"
-          href="https://github.com/your-profile"
+          href="https://www.linkedin.com/in/prateek-raj-verma/"
           target="_blank"
           rel="noopener"
-          aria-label="GitHub"
+          aria-label="LinkedIn"
           sx={{
             transition: "all 0.2s ease",
             "&:hover": {

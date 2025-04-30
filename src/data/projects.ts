@@ -48,7 +48,7 @@ export const projects = [
         name: "Portfolio Application", desc: "I developed a portfolio website using Next.js, Redux, and server-side rendering (SSR) for optimal performance and SEO. The project featured dynamic layouts, efficient state management, and interactive elements to showcase my skills and projects effectively.",
         duration: "April 2025 - Ongoing",
         technologies: [
-            { icon: SiReact, name: "ReactJs" },
+            { icon: SiNextdotjs, name: "NextJs" },
             { icon: SiVercel, name: "Vercel" },
         ],
         url: "/",

@@ -32,7 +32,7 @@ const HeroSection = () => {
           delaySpeed={1000}
         />
       </Typography>
-      <Typography variant="body1" color="white" sx={{ opacity: 0.8 }}>
+      <Typography variant="body1" sx={{ opacity: 0.8 }}>
         {` I am a passionate Full Stack Developer, crafting modern web applications
       using React, Next, Spring Boot, AWS, and more.`}
       </Typography>

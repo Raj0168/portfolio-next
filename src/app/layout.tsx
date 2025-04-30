@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   ],
   creator: "Prateek Raj Verma",
   publisher: "Prateek Raj Verma",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
-  themeColor: "#ffffff",
   icons: {
     icon: "/Logo.webp",
     shortcut: "/Logo.webp",

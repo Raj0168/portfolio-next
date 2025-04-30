@@ -121,6 +121,7 @@ export default function ProjectCards() {
                         }
                       }}
                       sx={{
+                        borderRadius: 0,
                         color: hasLink ? "primary.main" : "inherit",
                       }}
                     />
@@ -132,7 +133,7 @@ export default function ProjectCards() {
         })}
       </Grid>
 
-      <Box mt={5} textAlign="center">
+      <Box mt={5} textAlign="right">
         <motion.div
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
