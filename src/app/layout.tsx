@@ -55,13 +55,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Prateek Raj - Full Stack Developer",
-    description:
-      "Explore my portfolio and projects built using modern technologies like React, Next.js, Spring Boot, and AWS. Discover my skills and work as a Full Stack Developer.",
-    images: ["/Prateek_Photo.webp"],
-  },
 };
 
 export default function RootLayout({
