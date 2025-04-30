@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { useState } from "react";
 import {
@@ -63,12 +62,8 @@ export default function SkillsSection() {
       <Grid container spacing={2} justifyContent="center">
         {skillCategories[activeTab].skills.map((skill, index) => (
           <Grid
-            item
-            xs={4}
-            sm={3}
-            md={2}
             key={skill.name}
-            component={motion.div as any}
+            component={motion.div}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}

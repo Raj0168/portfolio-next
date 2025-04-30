@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   Box,
   Grid,
@@ -37,13 +36,7 @@ export default function ProjectCards() {
           const hasLink = Boolean(project.url);
 
           return (
-            <Grid
-              item
-              xs={12}
-              sm={6}
-              key={project.name}
-              component={motion.div as any}
-            >
+            <Grid key={project.name} component={motion.div}>
               <Card
                 variant="outlined"
                 sx={{

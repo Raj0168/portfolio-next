@@ -132,21 +132,16 @@ If you'd like to add tests, you can integrate **Jest** or **React Testing Librar
 Here’s a quick overview of the folder structure:
 
 ```
-/public
-  ├── images/               # Static images (e.g., hero image, project images)
-  ├── Prateek_Photo.webp    # Profile picture
 /src
   ├── /components/          # Reusable components (e.g., ProjectCards, SkillsSection)
   ├── /pages/               # Pages in Next.js (e.g., index.tsx, about.tsx)
   ├── /styles/              # Custom styles (e.g., global styles, theme)
-  ├── /utils                # Utility functions (e.g., SEOHead, helpers)
   ├── /data                 # Static data (e.g., skills, project info)
   ├── /api                  # API routes (e.g., contact form submission)
   ├── /store                # Redux store and slices (e.g., theme, font size)
   ├── /types                # TypeScript types
-  ├── /assets               # Images, icons, and fonts
   ├── /hooks                # Custom React hooks
-  └── /middleware           # Middleware for additional functionality
+  └── /utils                # Utility functions (e.g., SEOHead, helpers)
 /next.config.js             # Next.js configuration
 /package.json               # Project dependencies and scripts
 /tsconfig.json              # TypeScript configuration

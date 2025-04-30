@@ -9,8 +9,8 @@ import {
   Container,
   useTheme,
   useMediaQuery,
-  Grid,
 } from "@mui/material";
+import Grid from "@mui/material/Grid";
 import { motion } from "framer-motion";
 import { projects } from "@/data/projects";
 import { SiGithub } from "react-icons/si";
@@ -46,7 +46,7 @@ export default function ProjectsPage() {
 
       <Grid container spacing={isMobile ? 3 : 4} justifyContent="center">
         {projects.map((project) => (
-          <Grid item xs={12} sm={6} key={project.name}>
+          <Grid key={project.name}>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
