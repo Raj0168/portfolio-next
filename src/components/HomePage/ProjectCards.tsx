@@ -121,7 +121,7 @@ export default function ProjectCards() {
                         }
                       }}
                       sx={{
-                        color: hasLink ? "#b600d6" : "inherit",
+                        color: hasLink ? "primary.main" : "inherit",
                       }}
                     />
                   </Box>
@@ -145,11 +145,8 @@ export default function ProjectCards() {
               sx={{
                 fontSize: "0.75rem",
                 px: 2,
-                color: "#b600d6",
+                color: "primary",
                 transition: "all 0.3s ease-in-out",
-                "&:hover": {
-                  backgroundColor: "rgba(182, 0, 214, 0.2)",
-                },
               }}
             >
               View All Projects

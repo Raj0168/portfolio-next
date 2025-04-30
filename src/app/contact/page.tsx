@@ -213,11 +213,8 @@ export default function ContactPage() {
                 borderRadius: 2,
                 textTransform: "none",
                 padding: "10px 20px",
-                color: "#b600d6",
+                color: "primary",
                 transition: "all 0.3s ease-in-out",
-                "&:hover": {
-                  backgroundColor: "rgba(182, 0, 214, 0.2)",
-                },
               }}
             >
               {loading ? (

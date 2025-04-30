@@ -12,7 +12,6 @@ import {
   ListItemIcon,
   ListItemText,
   Toolbar,
-  Typography,
   useMediaQuery,
 } from "@mui/material";
 import {
@@ -78,7 +77,13 @@ export default function Navbar() {
   return (
     <>
       <AppBar position="sticky" color="default" elevation={2}>
-        <Toolbar sx={{ position: "relative", minHeight: "64px" }}>
+        <Toolbar
+          sx={{
+            position: "relative",
+            minHeight: "64px",
+            bgcolor: "primary",
+          }}
+        >
           {isMobile ? (
             <>
               <IconButton
@@ -100,7 +105,7 @@ export default function Navbar() {
                 href="/"
               >
                 <Image
-                  src="/logo.webp"
+                  src="/Logo.webp"
                   alt="Logo"
                   width={40}
                   height={40}
@@ -116,7 +121,7 @@ export default function Navbar() {
                 href="/"
               >
                 <Image
-                  src="/logo.webp"
+                  src="/Logo.webp"
                   alt="Logo"
                   width={40}
                   height={40}
@@ -141,7 +146,7 @@ export default function Navbar() {
                       sx={{
                         fontWeight: 500,
                         "&:hover": {
-                          color: "#b600d6",
+                          color: "primary.main",
                           transform: "scale(1.05)",
                           transition: "all 0.2s ease-in-out",
                         },
@@ -158,7 +163,7 @@ export default function Navbar() {
                       sx={{
                         fontWeight: 500,
                         "&:hover": {
-                          color: "rgb(211, 33, 243)",
+                          color: "primary.main",
                           transform: "scale(1.05)",
                           transition: "all 0.2s ease-in-out",
                         },
@@ -192,16 +197,24 @@ export default function Navbar() {
       >
         <Box
           sx={{
-            bgcolor: "rgb(211, 33, 243)",
-            color: "primary.contrastText",
-            py: 2,
+            bgcolor: "primary",
+            py: 1,
             px: 2,
             textAlign: "center",
           }}
+          component={Link}
+          href="/"
+          onClick={() => {
+            setDrawerOpen(false);
+          }}
         >
-          <Typography variant="h6" fontWeight="bold">
-            Explore
-          </Typography>
+          <Image
+            src="/Logo.webp"
+            alt="Logo"
+            width={40}
+            height={40}
+            style={{ borderRadius: "50%" }}
+          />
         </Box>
 
         <List>

@@ -13,7 +13,7 @@ export default function HomePage() {
         title="Prateek Raj Verma - Full Stack Developer"
         description="Explore my portfolio, projects, and blog built with React, Next.js, and AWS."
         imageUrl="/Prateek_Photo.webp"
-        url="https://yourdomain.com"
+        url="https://prateek-raj.vercel.app/"
       />
       <Container sx={{ py: 3 }}>
         <HeroSection />

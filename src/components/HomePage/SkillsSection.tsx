@@ -47,10 +47,10 @@ export default function SkillsSection() {
         sx={{
           mb: 2,
           "& .MuiTabs-indicator": {
-            backgroundColor: "#b600d6",
+            backgroundColor: "primary",
           },
           "& .Mui-selected": {
-            color: "#b600d6",
+            color: "primary",
           },
         }}
       >

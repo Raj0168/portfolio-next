@@ -11,7 +11,10 @@ export const globalMetadata = {
   category: "Technology",
   robots: "index, follow",
   authors: [
-    { name: "Prateek Raj Verma", url: "https://yourdomain.com" },
+    {
+      name: "Prateek Raj Verma",
+      url: "https://prateek-raj.vercel.app/",
+    },
     { name: "GitHub", url: "https://github.com/raj0168" },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/prateek-raj-verma/" },
   ],
@@ -28,7 +31,7 @@ export const globalMetadata = {
     title: "Prateek Raj - Full Stack Developer",
     description:
       "Explore my portfolio and projects built using modern technologies like React, Next.js, Spring Boot, and AWS. Discover my skills and work as a Full Stack Developer.",
-    url: "https://yourdomain.com",
+    url: "https://prateek-raj.vercel.app/",
     siteName: "Prateek Raj Verma",
     images: [
       {
@@ -95,6 +98,7 @@ const SEOHead = ({
         name: "Prateek Raj Verma",
         url: url,
         sameAs: [
+          "https://prateek-raj.vercel.app/",
           "https://github.com/raj0168",
           "https://www.linkedin.com/in/prateek-raj-verma/",
         ],

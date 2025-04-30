@@ -43,14 +43,14 @@ export default function Footer() {
       >
         <IconButton
           component="a"
-          href="https://github.com/raj0168"
+          href="https://github.com/your-profile"
           target="_blank"
           rel="noopener"
           aria-label="GitHub"
           sx={{
             transition: "all 0.2s ease",
             "&:hover": {
-              color: "#b600d6",
+              color: "primary.main",
               transform: "scale(1.1)",
             },
           }}
@@ -59,14 +59,14 @@ export default function Footer() {
         </IconButton>
         <IconButton
           component="a"
-          href="https://www.linkedin.com/in/prateek-raj-verma/"
+          href="https://github.com/your-profile"
           target="_blank"
           rel="noopener"
-          aria-label="LinkedIn"
+          aria-label="GitHub"
           sx={{
             transition: "all 0.2s ease",
             "&:hover": {
-              color: "#b600d6",
+              color: "primary.main",
               transform: "scale(1.1)",
             },
           }}
