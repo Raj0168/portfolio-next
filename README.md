@@ -4,6 +4,7 @@ Welcome to the **Portfolio Website** built with **Next.js**, **React**, **Redux*
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Setup](#setup)
@@ -11,6 +12,10 @@ Welcome to the **Portfolio Website** built with **Next.js**, **React**, **Redux*
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Live Demo
+
+[View the App](https://prateek-raj.vercel.app/)
 
 ## Technologies Used
 
