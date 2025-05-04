@@ -1,3 +1,4 @@
+import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 export const globalMetadata = {
@@ -5,7 +6,7 @@ export const globalMetadata = {
   description:
     "Hi, I'm Prateek Raj - a passionate Full Stack Developer with 2.8 years of experience building scalable web applications using React, Next.js, Spring Boot, and AWS.",
   keywords:
-    "Prateek, Prateek Verma, Prateek Raj,  Full Stack Developer, React, Next.js, AWS, JavaScript, Portfolio, Prateek Raj Verma, Software Engineer, Web Developer, Capgemini",
+    "Prateek, Prateek Verma, Prateek Raj, Full Stack Developer, React, Next.js, AWS, JavaScript, Portfolio, Prateek Raj Verma, Software Engineer, Web Developer, Capgemini",
   applicationName: "Prateek Raj Portfolio",
   generator: "Next.js",
   category: "Technology",
@@ -60,71 +61,78 @@ const SEOHead = ({
   imageUrl = "/Prateek_Photo.webp",
   url,
 }: SEOHeadProps) => (
-  <Head>
-    <meta charSet="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords" content={globalMetadata.keywords} />
-    <meta name="author" content="Prateek Raj Verma" />
-
-    {/* Title */}
-    <title>{title}</title>
-
-    {/* Description */}
-    <meta name="description" content={description} />
-
-    {/* Open Graph (for Facebook, LinkedIn, etc.) */}
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={url} />
-    <meta property="og:image" content={imageUrl} />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content={globalMetadata.openGraph.siteName} />
-
-    {/* Twitter Cards */}
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={imageUrl} />
-
-    {/* JSON-LD Schema Markup for SEO */}
-    <script type="application/ld+json">
-      {JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Person",
-        name: "Prateek Raj Verma",
-        url: url,
-        sameAs: [
-          "https://prateek-raj.vercel.app/",
-          "https://github.com/raj0168",
-          "https://www.linkedin.com/in/prateek-raj-verma/",
+  <>
+    <NextSeo
+      title={title}
+      description={description}
+      canonical={url}
+      openGraph={{
+        url,
+        title,
+        description,
+        images: [
+          {
+            url: imageUrl,
+            width: 1200,
+            height: 630,
+            alt: "Prateek Raj Verma - Full Stack Developer",
+            type: "image/webp",
+          },
         ],
-        jobTitle: "Full Stack Developer",
-        worksFor: {
-          "@type": "Organization",
-          name: "Capgemini",
-        },
-      })}
-    </script>
+        site_name: globalMetadata.openGraph.siteName,
+      }}
+      twitter={{
+        handle: "@handle",
+        site: "@site",
+        cardType: "summary_large_image",
+      }}
+    />
+    <Head>
+      <meta charSet="UTF-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=5"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta name="keywords" content={globalMetadata.keywords} />
+      <meta name="author" content="Prateek Raj Verma" />
 
-    {/* Favicon and Icons */}
-    <link rel="icon" href={globalMetadata.icons.icon} />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href={globalMetadata.icons.icon}
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href={globalMetadata.icons.icon}
-    />
-  </Head>
+      {/* JSON-LD Schema Markup for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Prateek Raj Verma",
+          url: url,
+          sameAs: [
+            "https://prateek-raj.vercel.app/",
+            "https://github.com/raj0168",
+            "https://www.linkedin.com/in/prateek-raj-verma/",
+          ],
+          jobTitle: "Full Stack Developer",
+          worksFor: {
+            "@type": "Organization",
+            name: "Capgemini",
+          },
+        })}
+      </script>
+
+      {/* Favicon and Icons */}
+      <link rel="icon" href={globalMetadata.icons.icon} />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href={globalMetadata.icons.icon}
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href={globalMetadata.icons.icon}
+      />
+    </Head>
+  </>
 );
 
 export default SEOHead;
