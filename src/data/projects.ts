@@ -28,9 +28,9 @@ export const projects = [
             { icon: SiGit, name: "Git" },
             { icon: SiRazorpay, name: "Razorpay" },
         ],
-        url: "https://www.teetoise.com/",
+        url: "https://github.com/Raj0168/teetoise-main",
         image: "/teetoise.webp",
-        github: ""
+        github: "https://github.com/Raj0168/teetoise-main"
     },
     {
         name: "React Advanced Sandbox", desc: "A comprehensive sandbox demonstrating dozens of React patterns—from data fetching and component memoization to routing, state management, virtualization, and animations. Dive in, click any concept to learn more, or explore the live pages below—all optimized for performance and dev experience.",
