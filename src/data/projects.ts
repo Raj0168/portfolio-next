@@ -1,4 +1,4 @@
-import { SiAdobe, SiAmazonec2, SiAngular, SiAwsamplify, SiConfluence, SiExpress, SiGit, SiGithub, SiGithubpages, SiJira, SiJquery, SiKibana, SiNextdotjs, SiOracle, SiRazorpay, SiReact, SiSass, SiSpringboot, SiSpringsecurity, SiVercel } from "react-icons/si";
+import { SiAdobe, SiTypescript, SiAmazonec2, SiAngular, SiAwsamplify, SiConfluence, SiExpress, SiGit, SiGithub, SiGithubpages, SiJira, SiJquery, SiKibana, SiNextdotjs, SiOracle, SiRazorpay, SiReact, SiSass, SiSpringboot, SiSpringsecurity, SiVercel } from "react-icons/si";
 
 export const projects = [
     {
@@ -74,10 +74,11 @@ export const projects = [
         duration: "April 2024 - Mar 2025",
         technologies: [
             { icon: SiReact, name: "React" },
-            { icon: SiSass, name: "SASS" },
+            { icon: SiTypescript, name: "TypeScript" },
             { icon: SiAmazonec2, name: "EC2" },
             { icon: SiGit, name: "Git" },
             { icon: SiJira, name: "Jira" },
+            { icon: SiSass, name: "SASS" },
         ],
         url: "",
         image: "/openapi.webp",
