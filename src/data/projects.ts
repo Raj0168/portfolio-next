@@ -70,7 +70,7 @@ export const projects = [
         github: ""
     },
     {
-        name: "API HUB Marketplace", desc: "I led a team of five freshers in an React project, where I assigned tasks via Jira, conducted standups, and performed code reviews. I optimized and integrated best practices within the Angular application, successfully delivering it within the shared time estimate. Additionally, I contributed to the AWS CI/CD pipeline setup and deployment process, significantly enhancing release stability and automation success rates.",
+        name: "API HUB Marketplace", desc: "I led a team of five freshers in an React project, where I assigned tasks via Jira, conducted standups, and performed code reviews. I optimized and integrated best practices within the React application, successfully delivering it within the shared time estimate. Additionally, I contributed to the AWS CI/CD pipeline setup and deployment process, significantly enhancing release stability and automation success rates.",
         duration: "April 2024 - Mar 2025",
         technologies: [
             { icon: SiReact, name: "React" },
