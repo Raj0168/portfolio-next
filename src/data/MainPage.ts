@@ -33,14 +33,12 @@ export const frontendSkills = [
 export const backendSkills = [
     { icon: SiNodedotjs, name: "Node.js" },
     { icon: SiSpringboot, name: "Spring Boot" },
-    { icon: SiSpringsecurity, name: "Spring Security" },
     { icon: SiPostgresql, name: "PostgreSQL" },
     { icon: SiNginx, name: "Nginx" },
 ];
 
 export const devopsSkills = [
     { icon: SiAmazonecs, name: "AWS" },
-    { icon: SiGooglecloud, name: "GCP" },
     { icon: SiGit, name: "Git" },
     { icon: SiJira, name: "Jira" },
     { icon: SiConfluence, name: "Confluence" },
