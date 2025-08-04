@@ -1,4 +1,4 @@
-import { SiAdobe, SiTypescript, SiAmazonec2, SiAngular, SiAwsamplify, SiConfluence, SiExpress, SiGit, SiGithub, SiGithubpages, SiJira, SiJquery, SiKibana, SiNextdotjs, SiOracle, SiRazorpay, SiReact, SiSass, SiSpringboot, SiSpringsecurity, SiVercel } from "react-icons/si";
+import { SiAdobe, SiTypescript, SiAmazonec2, SiAwsamplify, SiConfluence, SiExpress, SiGit, SiGithub, SiGithubpages, SiJira, SiJquery, SiKibana, SiNextdotjs, SiOracle, SiRazorpay, SiReact, SiSass, SiSpringboot, SiSpringsecurity, SiVercel } from "react-icons/si";
 
 export const projects = [
     {
