@@ -57,7 +57,7 @@ export const projects = [
     },
     {
         name: "SAB", desc: "I successfully delivered bilingual (English/Arabic) responsive web pages using jQuery/React and AEM, ensuring 100% compliance with SEO benchmarks and maintaining top performance scores. Additionally, I collaborated effectively with teams and stakeholders to ensure timely delivery, developing the most complex screens in the application.",
-        duration: "November 2023 - March 2024",
+        duration: "June 2023 - March 2024",
         technologies: [
             { icon: SiReact, name: "ReactJs" },
             { icon: SiJquery, name: "JQuery" },
@@ -70,10 +70,10 @@ export const projects = [
         github: ""
     },
     {
-        name: "API HUB Marketplace", desc: "I led a team of five freshers in an Angular project, where I assigned tasks via Jira, conducted standups, and performed code reviews. I optimized and integrated best practices within the Angular application, successfully delivering it within the shared time estimate. Additionally, I contributed to the AWS CI/CD pipeline setup and deployment process, significantly enhancing release stability and automation success rates.",
-        duration: "April 2024 - July 2024",
+        name: "API HUB Marketplace", desc: "I led a team of five freshers in an React project, where I assigned tasks via Jira, conducted standups, and performed code reviews. I optimized and integrated best practices within the Angular application, successfully delivering it within the shared time estimate. Additionally, I contributed to the AWS CI/CD pipeline setup and deployment process, significantly enhancing release stability and automation success rates.",
+        duration: "April 2024 - Mar 2025",
         technologies: [
-            { icon: SiAngular, name: "Angular" },
+            { icon: SiReact, name: "React" },
             { icon: SiSass, name: "SASS" },
             { icon: SiAmazonec2, name: "EC2" },
             { icon: SiGit, name: "Git" },
@@ -85,7 +85,7 @@ export const projects = [
     },
     {
         name: "Atradius", desc: "I resolved over 30 UI and regression issues, which led to a significant reduction in production errors and improved error handling to minimize front-end exceptions. I reviewed and resolved UI exceptions in Kibana logs, working closely with UI, backend, and QA teams to ensure seamless delivery and maintaining over 95% sprint timeline adherence across releases.",
-        duration: "January 2023 - July 2023",
+        duration: "January 2023 - June 2023",
         technologies: [
             { icon: SiOracle, name: "OJET" },
             { icon: SiJira, name: "Jira" },
