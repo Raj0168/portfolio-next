@@ -45,14 +45,14 @@ export default function Navbar() {
   const navItems = [
     { label: "Projects", href: "/projects" },
     { label: "Contact", href: "/contact" },
-    { label: "Resume", href: "/Prateek_Raj_Verma-Resume.pdf", download: true },
+    { label: "Resume", href: "/Prateek-Resume.pdf", download: true },
   ];
 
   const handleResumeDownload = () => {
     try {
       const link = document.createElement("a");
-      link.href = "/Prateek_Raj_Verma-Resume.pdf";
-      link.download = "Prateek_Raj_Verma-Resume.pdf";
+      link.href = "/Prateek-Resume.pdf";
+      link.download = "Prateek-Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
