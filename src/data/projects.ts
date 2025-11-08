@@ -1,20 +1,19 @@
-import { SiAdobe, SiTypescript, SiAmazonec2, SiAwsamplify, SiConfluence, SiExpress, SiGit, SiGithub, SiGithubpages, SiJira, SiJquery, SiKibana, SiNextdotjs, SiOracle, SiRazorpay, SiReact, SiSass, SiSpringboot, SiSpringsecurity, SiVercel } from "react-icons/si";
+import { SiAdobe, SiTypescript, SiAmazonec2, SiGooglecloud, SiAwsamplify, SiConfluence, SiExpress, SiGit, SiGithub, SiGithubpages, SiJira, SiJquery, SiKibana, SiNextdotjs, SiOracle, SiRazorpay, SiReact, SiSass, SiVercel, SiTailwindcss  } from "react-icons/si";
 
 export const projects = [
     {
         name: "CoreCapMaths", desc: "I developed a web application for Corecapmaths, an EdTech platform enriched with features like course management, interactive notes, and progress tracking. Additionally, I implemented secure authentication and integrated payment gateways. To ensure efficient content and user management, I built an admin dashboard.",
-        duration: "March 2025 - Ongoing",
+        duration: "August 2025 - October 2025",
         technologies: [
             { icon: SiNextdotjs, name: "NextJs" },
-            { icon: SiSpringboot, name: "Spring Boot" },
-            { icon: SiSpringsecurity, name: "Spring Security" },
-            { icon: SiAmazonec2, name: "AWS EC2" },
-            { icon: SiAwsamplify, name: "Amplify" },
             { icon: SiGit, name: "Git" },
-            { icon: SiRazorpay, name: "Razorpay" },
+            { icon: SiTailwindcss , name: "Tailwind CSS" },
+            { icon: SiVercel  , name: "Vercel" },
+            { icon: SiGooglecloud , name: "GCS" },
+            { icon: SiRazorpay, name: "PayU" },
         ],
-        url: "https://test.corecapmaths.in",
-        image: "/corecapmaths.webp",
+        url: "https://www.corecapmaths.in",
+        image: "/corecap-maths.webp",
         github: "",
     },
     {
